@@ -86,3 +86,50 @@
 //   }
 // console.log(selectionSort(arr))
   
+
+// bubble sort
+
+//not solving
+// let arr=[ 4,3,5,2]
+// function bubbleSortConcept1(arr) {
+//     for (let i =0; i < arr.length; i++) {
+//       for (let j= 0; j<arr.length-i-1; j++) {
+//         if (arr[i] > arr[j + 1]) {
+//           let temp = arr[j];
+//           arr[j] = arr[j + 1];
+//           arr[j + 1] = temp;
+//         }
+//       }
+//     }
+//   }
+
+
+//solving
+// let arr=[ 4,3,5,2]
+// function bubbleSort(arr, length = arr.length) {
+//     while (length) {
+//         for (let i = 0; i < arr.length; i++) {
+//             if (arr[ i ] > arr[i + 1]) {
+//                 let temp = arr[ i ];
+//                 arr[ i ] = arr[i + 1];
+//                 arr[i + 1] = temp
+//             }
+//         }
+//         length--;
+//     }
+//     return arr;
+// }
+
+// function bubbleSort(arr) {
+//     arr.map(e1 =>{
+//          arr.map((e2,i)=>{
+//             if (arr[ i ] > arr[i + 1]) {
+//                 arr[ i ] = arr[i + 1];
+//                 arr[i + 1] = e2;
+//             }
+//          })
+//     })
+    
+// }
+// bubbleSort((arr))
+//   console.log(bubbleSort(arr))
